@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Tip calculator app</title>
+<link rel="stylesheet" href="style.css">
+<script src="app.js"></script>
+</head>
+
+<body>
+  <div class="main-container">
+    <img class="logo" src="/images/logo.svg" alt="logo">
+    <div class="container">
+      <div class="main">
+        <div class="part1">
+          <div class="contain1">
+            <div class="bill">
+              <h2>Bill</h2>
+              <div class="bill-in">
+                <img class="dollar" src="/images/icon-dollar.svg" alt="dollar">
+                <input class="bill-input" type="number" min="0" placeholder="0">
+              </div>
+            </div>
+            <div class="selecttip">
+              <h2>Select Tip %</h2>
+              <div class="options">
+                <button class="tip-btn">5%</button>
+                <button class="tip-btn">10%</button>
+                <button class="tip-btn">15%</button>
+                <button class="tip-btn">25%</button>
+                <button class="tip-btn">50%</button>
+                <input class="custom-btn" type="number" min="0"placeholder="Custom">
+              </div>
+            </div>
+            <div class="number-of-people">
+              <div class="people-titles">
+              <h2>Number of People</h2>
+              <h2 class="error-num">Can't be zero</h2>
+              </div>
+              <div class="people-in">
+                <img class="p-pic" src="/images/icon-person.svg" alt="person">
+                <input class="p-count p-hover" type="number" placeholder="0" min="0">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="part2">
+          <div class="contain2">
+            <div class="calculator">
+              <div class="count">
+                <div class="title">
+                  <h3>Tip Amount</h3>
+                  <p>/ person</p>
+                </div>
+                <div class="counter">
+                  <div class="amount-tip">
+                  $0.00</div>
+              </div>
+              </div>
+              <div class="count">
+                <div class="title">
+                  <h3> Total</h3>
+                  <p>/ person</p>
+                </div>
+                <div class="counter">
+                  <div class="amount-total">
+                  $0.00</div>
+                </div>
+              </div>
+            </div>
+            <button class="reset">
+              RESET
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+
+    
+    
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://github.com/Vali-Ruziboev" target="_blank">Ruziboev Vali</a>.
+    </div>
+  </div>
+</body>
+
+</html>
