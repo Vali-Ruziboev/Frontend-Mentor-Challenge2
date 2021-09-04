@@ -13,7 +13,6 @@ Users should be able to:
 ### Screenshot
 
 ![](./tip-calculator-app-main.png)
-![](./tip-calculator-app-main mobile.png)
 
 ### Links
 
