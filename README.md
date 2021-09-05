@@ -16,7 +16,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [https://vali-ruziboev.github.io/Frontend-Mentor-Challenge2/](https://vali-ruziboev.github.io/Frontend-Mentor-Challenge2/)
+- Live Site URL: [Click here](https://vali-ruziboev.github.io/Frontend-Mentor-Challenge2/)
 
 ### Built with
 
